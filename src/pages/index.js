@@ -7,6 +7,8 @@ import Container from 'components/Container';
 import Map from 'components/Map';
 import Snippet from 'components/Snippet';
 
+import Api from '../services/api';
+
 const LOCATION = {
   lat: 38.9072,
   lng: -77.0369,
@@ -23,7 +25,20 @@ const IndexPage = () => {
    */
 
   async function mapEffect({ leafletElement: map } = {}) {
+    let response;
 
+    response = await Api.get('/countries')
+    .then(result => {
+      console.log(result);
+      return result;
+    })
+    .catch(error => {
+      console.error(`Failed to fetch: ${error.message}`, error);
+      return;
+    })
+
+    const { data = [] } = response;
+    console.log(data);
   }
 
   const mapSettings = {
