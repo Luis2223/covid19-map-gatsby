@@ -1,12 +1,14 @@
-# 🍃 Gatsby Leaflet Starter
-
-Jumpstart your next Gatsby mapping project with Leaflet!
-
-## ⚡ Quick Deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/gatsby-starter-leaflet) [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/colbyfayock/gatsby-starter-leaflet)
+# Covid19 Map Tracker
 
 
-## 🧰 What This Includes
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+Mapa de rastreio do covid19 pelos paises, feito com base no tutorial da freeCodeCamp.
+
+### 🧰 Ferramentas utilizadas:
+
+
+
 * [Yarn](https://yarnpkg.com/en/)
 * [Gatsby](https://www.gatsbyjs.org/)
 * [Sass](https://sass-lang.com)
@@ -14,35 +16,32 @@ Jumpstart your next Gatsby mapping project with Leaflet!
 * [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
 * [Leaflet](https://leafletjs.com/)
 * [React Leaflet](https://react-leaflet.js.org)
+* [Axios](https://github.com/axios/axios)
 
-## 🚀 Getting Started
+## Instalação
+### Requiridos
+O Covid19 Map Tracker necessita da instalação do gatsby-cli para rodar.
 
-### Requirements
 * [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
 * [Yarn](https://yarnpkg.com/en/)
 
-### Quick Start
-Run the following in your favorite terminal:
-```
-gatsby new my-map-app https://github.com/colbyfayock/gatsby-starter-leaflet
-```
+### Inicio Rápido
 
-### Starting from Scratch
-* Set up Yarn: https://yarnpkg.com/lang/en/docs/install/#mac-stable)[https://yarnpkg.com/lang/en/docs/install/
-* Install the Gatsby CLI globally:
+Clone o repositiorio para o local desejado.
 ```
-yarn global add gatsby-cli
+git clone https://github.com/Luis2223/covid19-map-gatsby.git
 ```
-* Inside the directory of your choice, scaffold a new Gatsby site:
+Instale as dependências necessárias.
 ```
-gatsby new my-map-app https://github.com/colbyfayock/gatsby-starter-leaflet
+cd covid19-map-gatsby
+yarn add i
 ```
-For example, if I want my installation in `~/Code/new-gatsby-site`, I would navigate to `~/Code` and run:
-```
-gatsby new new-gatsby-site https://github.com/colbyfayock/gatsby-starter-leaflet
-```
-* Navigate to your new directory and run:
+Inicie o projeto.
 ```
 yarn develop
 ```
-* You should now be running a new Gatsby site locally! 🎉
+
+License
+----
+
+MIT
